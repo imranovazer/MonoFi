@@ -1,13 +1,35 @@
+@font-face {
+  font-family: Roboto;
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: Archivo;
+  src: url('../fonts/Archivo-Regular.ttf');
+}
+@font-face {
+  font-family: Archivo-bold;
+  src: url('../fonts/Archivo-Bold.ttf');
+}
+@font-face {
+  font-family: Outfit;
+  src: url('../fonts/Outfit-Regular.ttf');
+}
 .container {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  overflow: hidden;
 }
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
+}
+a{
+  text-decoration: none;
+  color: white;
 }
 .App {
   width: 100%;
@@ -23,8 +45,8 @@
     width: 970px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .container {
-    width: 1170px;
+    width: 1300px;
   }
 }
