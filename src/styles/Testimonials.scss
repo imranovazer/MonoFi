@@ -38,12 +38,24 @@
 
     }
     .usersCards {
-        
+        position: relative;
         margin-top: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 20px;
+        .Rocket {
+            position: absolute;
+            right: -200px;
+            top: -250px;
+        }
+        .lightUsers {
+            position: absolute;
+                width: 961px;
+                height: 466px;
+                background: rgba(219, 0, 255, 0.5);
+                filter: blur(162px);
+        }
         
         
     }

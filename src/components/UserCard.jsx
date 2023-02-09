@@ -6,6 +6,20 @@ const UserCard = ({name ,role , ava,comment}) =>
         <div className="ellips">
         </div>
         <div className="ava">
+            <img src={ava} alt="" srcset="" />
+                </div>
+        <div className="userData">
+            <span className="name">
+
+                {name}
+            </span>
+            <span className="role">
+                {role}
+
+            </span>
+            <span className="comment">
+                    {comment}
+            </span>
             
         </div>
     </div>)

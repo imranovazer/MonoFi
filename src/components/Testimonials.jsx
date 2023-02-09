@@ -1,5 +1,7 @@
 import '../styles/Testimonials.scss'
 import UserCard from './UserCard';
+import data from '../data';
+import images from '../images';
 const Testimonials = () => 
 {
     return <div className="Testimonials">
@@ -13,7 +15,16 @@ const Testimonials = () =>
             </div>
 
             <div className="usersCards">
-                <UserCard name='' role='' comment='' ava ='' />
+                <div className="Rocket">
+                    <img src={images.Rocket} alt="" srcset="" />
+                </div>
+                <div className="lightUsers">
+
+                </div>
+                {
+                    data.map(data=><UserCard name={data.name} role={data.role} comment={data.comment} ava ={data.ava} />)
+                }
+                
             </div>
 
         </div>

@@ -14,12 +14,20 @@
   font-family: Outfit;
   src: url('../fonts/Outfit-Regular.ttf');
 }
+@font-face {
+  font-family: Inter;
+  src: url('../fonts/Inter-Regular.ttf');
+}
+@font-face {
+  font-family: Manrope;
+  src: url('../fonts/Manrope-Regular.ttf');
+}
 .container {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  overflow: hidden;
+
 }
 * {
   padding: 0;
