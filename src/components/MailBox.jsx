@@ -3,7 +3,7 @@ import '../styles/MailBox.scss'
 const MailBox = () => 
 {
     return (<div className="MailBox">
-        <div className="container">
+        <div className="container forMbox">
             <div className="mailBox">
                 <div className="image">
                     <img src={images.NewMail} alt="" />
@@ -14,8 +14,10 @@ const MailBox = () =>
                 <span className="head">
                     Start Investing Now!
                 </span>
-
-                <input type="email" className='email' placeholder='Enter your email' />
+                <div className="emailContainer">
+                    <input type="email" className='email' placeholder='Enter your email' />
+                </div>
+                
                 <button className='submit'> Become an Investor</button>
 
             </div>

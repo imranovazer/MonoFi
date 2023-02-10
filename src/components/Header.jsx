@@ -16,7 +16,7 @@ const Header = () => {
                     Finding investors for your startup or investing in soon-to-be unicors has never been easier
                 </div>
             </div>
-            <div className="image">
+            <div className="image ofsection">
                 <img alt=''  src={images.Stacks} />
             </div>
         </div>
@@ -35,7 +35,7 @@ const Header = () => {
                 </div>
                 <button>VIEW OUR PLANS</button>
             </div>
-            <div className="image">
+            <div className="image ofsection">
                 <img alt='' src={images.LaptopChart} />
             </div>
 
@@ -63,7 +63,7 @@ const Header = () => {
 
                 </div>
             </div>
-            <div className="image">
+            <div className="image ofsection">
                 <img alt='' src={images.Phone} />
             </div>
 

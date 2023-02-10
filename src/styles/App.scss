@@ -43,14 +43,10 @@ a{
   width: 100%;
   min-height: 100vh;
 }
-@media (min-width: 768px) {
+@media (min-width: 1280px) {
   .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
+    width: 1200px;
+    
   }
 }
 @media (min-width: 1400px) {

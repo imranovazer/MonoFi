@@ -2,8 +2,8 @@
     margin-top: 200px;
     .mailBox {
         position: relative;
-        width: 1184px;
         height: 430px;
+        width: 90%;
         background: #7D7DDC;
         border-radius: 34px;
         display: flex;
@@ -28,6 +28,7 @@
                 color: #000000;
 
         }
+        
         .head {
             font-family: Outfit;
             font-style: normal;
@@ -42,30 +43,29 @@
             color: #FFFFFF;
 
         }
-        .email 
+        .emailContainer 
         {
-
-                width: 714px;
+                max-width: 714px;
+                width: 80%;
                 height: 68px;
                 background: #000000;
                 border-radius: 18px;
-
-               
-             
-                font-family: Archivo;
-                font-style: normal;
-                font-weight: 200;
-                font-size: 36px;
-                line-height: 20px;
-                /* or 56% */
-            
+                font-family: Archivo; 
                 display: flex;
                 align-items: center;
-                text-align: center;
+                 justify-content: center;
                 letter-spacing: 0.2px;
-                color: #CFD6DD;
-                outline: none;
-                border: none;
+               
+                input {
+                    font-weight: 200;
+                    font-size: 34px;
+                    color: #CFD6DD;
+                    background-color: #000000;
+                    outline: none;
+                    border: none;
+                    text-align: center;
+
+                }
         }
         .submit {
             display: flex;
@@ -74,7 +74,7 @@
 
             isolation: isolate;
         
-            width: 370px;
+            max-width: 370px;
             height: 80px;
         
             background: #000000;
@@ -85,23 +85,30 @@
             font-size: 20px;
             line-height: 28px;
             /* identical to box height, or 138% */
-        
             letter-spacing: 0.1em;
             text-transform: uppercase;
-        
             color: #FFFFFF;
-        
-        
             cursor: pointer;
-
+            transition: 0.2s;
+            border: none;
+            padding: 0 3% 0 3%;
         }
+                .submit:hover
+                {
+                    background-color: rgb(13, 13, 13);
+                }
         .image {
             position: absolute;
             right: -80px;
             top: -150px;
+            
         }
 
 
 }
 
+}
+.forMbox {
+    display: flex;
+    justify-content: center;
 }
