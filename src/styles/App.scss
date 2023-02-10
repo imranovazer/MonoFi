@@ -15,6 +15,10 @@
   src: url('../fonts/Outfit-Regular.ttf');
 }
 @font-face {
+  font-family: Outfit-bold;
+  src: url('../fonts/Outfit-Black.ttf');
+}
+@font-face {
   font-family: Inter;
   src: url('../fonts/Inter-Regular.ttf');
 }
@@ -27,6 +31,7 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  
 
 }
 * {

@@ -4,6 +4,7 @@
         position: relative;
         height: 430px;
         width: 90%;
+        max-width: 1000px;
         background: #7D7DDC;
         border-radius: 34px;
         display: flex;
@@ -30,7 +31,7 @@
         }
         
         .head {
-            font-family: Outfit;
+            font-family: Outfit-bold;
             font-style: normal;
             font-weight: 900;
             font-size: 57px;
@@ -72,7 +73,7 @@
             justify-content: center;
             align-items: center;
 
-            isolation: isolate;
+            
         
             max-width: 370px;
             height: 80px;
@@ -80,7 +81,7 @@
             background: #000000;
             border-radius: 18px;        
             font-family: Roboto;
-            font-style: normal;
+       
             font-weight: 600;
             font-size: 20px;
             line-height: 28px;
@@ -99,8 +100,11 @@
                 }
         .image {
             position: absolute;
-            right: -80px;
+            right: -10%;
             top: -150px;
+            img{
+                width: 100%;
+            }
             
         }
 

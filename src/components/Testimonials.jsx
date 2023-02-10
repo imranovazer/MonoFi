@@ -18,9 +18,9 @@ const Testimonials = () =>
                 <div className="Rocket">
                     <img src={images.Rocket} alt="" srcset="" />
                 </div>
-                <div className="lightUsers">
+                {/* <div className="lightUsers">
 
-                </div>
+                </div> */}
                 {
                     data.map(data=><UserCard name={data.name} role={data.role} comment={data.comment} ava ={data.ava} />)
                 }
